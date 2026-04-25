@@ -49,7 +49,7 @@ async function search(username) {
   following.textContent = user.following;
   repos.textContent=user.public_repos;
   bioMobile.textContent=user.bio;
-  bioDesktop.textContent=user.bio;
+  // bioDesktop.textContent=user.bio;
   const date = user.created_at;
   
   userJoined.textContent = date.split("T")[0];
